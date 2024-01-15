@@ -1,0 +1,49 @@
+.userAddressForm {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid grey;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px  grey;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 600px) {
+    .userAddressForm {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,51 @@
+.cartSubtotalContainer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .subtotalDetails h2 {
+    margin-bottom: 10px;
+  }
+  
+  .subtotalDetails p {
+    font-weight: bold;
+  }
+  
+  .actionButtons button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .actionButtons button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 600px) {
+    .cartSubtotalContainer {
+      flex-direction: column;
+    }
+  
+    .actionButtons {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .actionButtons button {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }

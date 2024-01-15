@@ -1,0 +1,74 @@
+.navbar {
+  background-color: #3498db;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width as needed */
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top:10px;
+  width: 200px; /* Adjust the width as needed */
+}
+
+.searchBar button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  position: relative;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
+
+.cartCount {
+  background-color: #e74c3c;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 12px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .searchBar {
+    margin-top: 10px;
+  }
+
+  .searchBar input {
+    width: 100%;
+  }
+
+  .cartIcon {
+    margin-top: 10px;
+  }
+}
